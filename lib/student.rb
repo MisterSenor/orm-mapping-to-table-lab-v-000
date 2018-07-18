@@ -12,14 +12,14 @@ class Student
     name TEXT,
     album TEXT
     )")
-  end 
+  end
 
-  def self.drop_table 
-    sql = <<- SQL 
-      DROP TABLE students;
-      SQL 
+  def self.drop_table
+    sql = <<-SQL
+      DROP TABLE students
+      SQL
       DB[:conn].execute(sql)
-    end 
+    end
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]
 
