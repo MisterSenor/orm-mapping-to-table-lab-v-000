@@ -23,7 +23,7 @@ class Student
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]
 
-  def save 
+  def save
     #remember that this is an instance method
     sql = <<-SQL
     INSERT INTO students (name, grade) VALUES (?,?)
