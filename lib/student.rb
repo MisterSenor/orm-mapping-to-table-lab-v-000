@@ -5,7 +5,7 @@ class Student
   def initialize(name, grade, id=nil)
     @name = name
     @grade = grade
-    @id = id 
+    @id = id
 
   end
 
@@ -40,7 +40,7 @@ class Student
     student = Student.new(name, grade)
     student.save
     student
-  end 
+  end
   
-    
+
 end
