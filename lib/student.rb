@@ -10,7 +10,7 @@ class Student
     DB[:conn].execute("CREATE TABLE IF NOT EXISTS students (
     id INTEGER PRIMARY KEY,
     name TEXT,
-    album TEXT
+    grade INTEGER
     )")
   end
 
